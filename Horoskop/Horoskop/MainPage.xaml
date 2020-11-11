@@ -7,7 +7,8 @@
         <Label x:Name="lab" Text="Гороскоп" AbsoluteLayout.LayoutBounds="150,10,100,20"></Label>
         <DatePicker x:Name="dp" PropertyChanged="dp_PropertyChanged" AbsoluteLayout.LayoutBounds="0,50,110,150" ></DatePicker>
         <Image x:Name="img" Source="capricorn.webp" AbsoluteLayout.LayoutBounds="120,50,220,140"/>
-        <Label x:Name="ent" FontSize="18"  AbsoluteLayout.LayoutBounds="0,300,360,300"></Label>
+        <Label x:Name="lab2" FontSize="18"  AbsoluteLayout.LayoutBounds="0,200,360,300"></Label>
+        <Entry x:Name="ent" Placeholder="Напиши знак зодиака" Text="" AbsoluteLayout.LayoutBounds="0,500,300,50" PropertyChanged="ent_PropertyChanged"></Entry>
     </AbsoluteLayout>
 
 </ContentPage>
